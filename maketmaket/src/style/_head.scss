@@ -1,0 +1,169 @@
+
+  .head__left > .head__divider {
+    display: none;
+  }
+ 
+  
+ 
+  .head__message--margin {
+    margin-right: 20px;
+  }
+  
+  
+  /* Основное содержание*/
+  main {
+    padding-top: 24px;
+  }
+  
+  .title {
+    display: flex;
+  }
+  
+  .title__highlight {
+    width: 4px;
+    max-height: 40px;
+  }
+  
+  .title__h1 {
+    color: #1b1c21;
+    font-family: TT Lakes;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 142.857% */
+    letter-spacing: -0.6px;
+  }
+  
+  .title__h1--margin {
+    margin: 0;
+    margin-left: 16px;
+  }
+  
+  .head_repair-inform--hide {
+    display: none;
+  }
+
+  
+  /* Статья */
+  .section1 {
+    margin: 24px 16px;
+    height: 100%;
+  }
+  
+  .about-us__text {
+    color: #1b1c21;
+    font-family: "TT Lakes";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: 0.2px;
+  }
+  
+  .about-us__text--hide {
+    display: none;
+  }
+  
+  .about-us__text--hide2 {
+    font-size: 0;
+  }
+  
+  
+  .button--text {
+    color: #1b1c21;
+    font-family: TT Lakes;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.2px;
+  }
+  
+  .read-more__text {
+    width: 100px;
+  }
+  
+  .img {
+    display: flex;
+    justify-content: center;
+  }
+  .img__main {
+    width: 320px;
+  }
+  
+  /* Устроства с маленьким экраном (планшеты, 768px и выше) */
+  @media (min-width: 768px) {
+    body {
+      min-height: 504px;
+    }
+    .head__message {
+      display: flex;
+    }
+  
+    .head__left > .head__divider {
+      display: block;
+    }
+  
+    /* Слайд меню */
+    ul.information {
+      margin-left: 32px;
+    }
+  
+    /* Статья */
+    .section1 {
+      display: flex;
+      margin-top: 32px;
+      height: 100%;
+    }
+  
+    .about-us {
+      margin-right: 48px;
+    }
+  
+    .about-us__text--hide {
+      display: block;
+    }
+  
+    .img__main {
+      width: 360px;
+    }
+  
+    .img__main {
+      /* width: 360px; */
+      min-width: 433px;
+      /* margin: 0px 24px 24px 0; */
+      border-radius: 10px;
+    }
+  }
+  
+  /* Устройства с большим экраном ( 1120px и выше) */
+  @media (min-width: 1120px) {
+   
+  
+    .main__information {
+      flex-wrap: wrap;
+    }
+  
+    ul.information {
+      margin: 24px;
+      margin-right: 0px;
+    }
+  
+    /* Статья */
+    .section1 {
+      margin: 20px 32px;
+    }
+  
+    .about-us {
+      margin-right: 36px;
+    }
+  
+    .about-us__text--hide2 {
+      font-size: 14px;
+    }
+  
+    .img__main {
+      width: 531px;
+    }
+  }
+  
